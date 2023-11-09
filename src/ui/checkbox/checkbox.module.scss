@@ -1,7 +1,11 @@
 .checkbox {
   cursor: pointer;
 
-  display: block;
+  display: inline-block;
+
+  &:hover > &__checkBox {
+    box-shadow: 0 0 3px 1px rgba(53, 165, 0, 0.70);
+  }
 
   &__input {
     visibility: hidden;
