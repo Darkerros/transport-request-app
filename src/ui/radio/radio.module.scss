@@ -1,0 +1,43 @@
+.radio {
+  cursor: pointer;
+
+  display: inline-block;
+
+  &:hover > &__radio {
+    box-shadow: 0 0 3px 1px rgba(53, 165, 0, 0.70);
+  }
+
+  &__input {
+    visibility: hidden;
+    display: none;
+  }
+
+  &__input:checked + &__radio::after {
+    left: calc(100% - 22px - 4px);
+  }
+
+  &__radio {
+    position: relative;
+    width: 54px;
+    height: 32px;
+
+    background: #4C73E3;
+    border-radius: 15px;
+
+    &::after {
+      content: "";
+
+      top: 4px;
+      left: 4px;
+      position: absolute;
+
+      width: 22px;
+      height: 22px;
+
+      background: white;
+      border-radius: 50%;
+
+      transition: all .3s linear;
+    }
+  }
+}
