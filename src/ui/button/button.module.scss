@@ -1,0 +1,47 @@
+.button {
+  cursor: pointer;
+
+  padding: 18px;
+  min-width: 248px;
+
+  font-size: 15px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: normal;
+
+  background: transparent;
+
+  &:disabled {
+    pointer-events: none;
+  }
+
+  &_theme {
+    &_primary {
+      color: white;
+
+      border-radius: 26px;
+      background: #4C73E3;
+      border: 1px solid #4C73E3;
+
+      transition: all linear .15s;
+
+      &:hover {
+        background: #88A7FF;
+        border: 1px solid #88A7FF;
+      }
+    }
+
+    &_outlined {
+      color: #4C73E3;
+      border-radius: 26px;
+      border: 1px solid #4C73E3;
+
+      transition: all linear .15s;
+
+      &:hover {
+        color: #88A7FF;
+        border: 1px solid #88A7FF;
+      }
+    }
+  }
+}
