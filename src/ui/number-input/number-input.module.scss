@@ -1,0 +1,67 @@
+.numberInput {
+  display: inline-flex;
+
+  &__button {
+    padding: 0 10px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border: none;
+    background: #4C73E3;
+
+    transition: linear all .3s;
+
+    &:hover {
+      background: #88A7FF;
+    }
+
+    &:first-of-type {
+      border-top-left-radius: 24px;
+      border-bottom-left-radius: 24px;
+    }
+    &:last-of-type {
+      border-top-right-radius: 24px;
+      border-bottom-right-radius: 24px;
+    }
+  }
+
+  &__input {
+    //display: none;
+  }
+
+  &__inputContent {
+    padding: 0 10px;
+    height: 32px;
+
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background: #4C73E3;
+  }
+
+  &__inputContainer {
+    gap: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
