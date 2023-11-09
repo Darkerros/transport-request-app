@@ -1,0 +1,42 @@
+.checkbox {
+  cursor: pointer;
+
+  display: block;
+
+  &__input {
+    visibility: hidden;
+    display: none;
+  }
+
+  &__input:checked + &__checkBox {
+    background: #4C73E3;
+  }
+
+  &__input:checked + &__checkBox > &__icon {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__checkBox {
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4px;
+    border: solid 1px #4C73E3;
+
+    transition: all .3s linear;
+  }
+
+  &__icon {
+    color: white;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all .3s linear;
+  }
+}
