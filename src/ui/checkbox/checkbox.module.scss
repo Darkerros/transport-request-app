@@ -1,7 +1,16 @@
 .checkbox {
   cursor: pointer;
 
-  display: inline-block;
+  gap: 20px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+
+  color: #787978;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 
   &:hover > &__checkBox {
     box-shadow: 0 0 3px 1px rgba(53, 165, 0, 0.70);
