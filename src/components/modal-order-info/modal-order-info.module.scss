@@ -1,0 +1,30 @@
+.modalOrderInfo {
+  &__content {
+    min-width: 360px;
+
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__orderInfoCOntainer {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__infoMessage {
+    text-align: center;
+
+    color: #7F7F82;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__closeBtn {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}
