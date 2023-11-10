@@ -1,0 +1,22 @@
+.sendCargoFormFieldset {
+  position: relative;
+  padding: 20px;
+  border-radius: 21px;
+  border: 1px solid #4C73E3;
+
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+
+  height: fit-content;
+
+  &__title {
+    margin: 0 0 0 20px;
+
+    color: #262D38;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,36 @@
+.sendCargoFormFieldsetTransport {
+  gap: 60px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__removeButton {
+    position: absolute;
+
+    right: -52px;
+    top: calc(50% - 16px);
+
+    padding: 0;
+    width: 32px;
+    height: 32px;
+
+
+    border: none;
+    cursor: pointer;
+    background: transparent;
+
+    transition: transform linear .2s;
+
+    &_visibility_hidden {
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+
+  & > :nth-child(1n) {
+    flex-grow: 1;
+  }
+}
