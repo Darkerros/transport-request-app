@@ -5,7 +5,7 @@ import styles from './selector.module.scss'
 
 import DownChevron from "../icons/down-chevron.tsx";
 
-interface Option {
+export interface Option {
   label: string;
   value: string;
 }
