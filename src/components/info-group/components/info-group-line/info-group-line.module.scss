@@ -1,0 +1,19 @@
+.infoGroupLine {
+  margin: 0;
+
+  color: #787978;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  &_color_accent {
+    color: #4C73E3;
+  }
+
+  &__lineSubstring {
+    color: #787978;
+    font-weight: 300;
+    line-height: normal;
+  }
+}

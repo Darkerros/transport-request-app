@@ -1,0 +1,16 @@
+.infoGroup {
+
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &_border_top {
+    padding-top: 30px;
+    border-top: solid 3px #4C73E3;
+  }
+
+  &_border_bottom {
+    padding-bottom: 30px;
+    border-bottom: solid 3px #4C73E3;
+  }
+}
