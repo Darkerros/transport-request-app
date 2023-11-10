@@ -1,0 +1,11 @@
+.app {
+  &__header {
+    height: 70px;
+    background: #4C73E3;
+  }
+  &__content {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 40px 110px;
+  }
+}
